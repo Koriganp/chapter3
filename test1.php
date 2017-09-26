@@ -4,6 +4,9 @@
   echo "<br>";
   $current_user = $username;
   echo $current_user;
+  echo "<br>"
 ?>
-
+<?php
+echo "This is line ".__LINE__."of file".__FILE__;
+?>
 
