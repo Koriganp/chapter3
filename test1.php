@@ -17,6 +17,12 @@
 		echo $pi * ($radius * $radius);
 		echo "<br>";
 		echo "This is line ".__LINE__." of file ".__FILE__;
+
+		function longdate($timestamp)
+		{
+			return date("l F jS Y", $timestamp);
+		}
+		echo longdate(time());
 		?>
 	</body>
 </html>
